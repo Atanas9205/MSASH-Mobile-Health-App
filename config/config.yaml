@@ -1,0 +1,31 @@
+random_seed: 42
+n_samples: 1000
+time_end_s: 10.0
+
+paths:
+  synthetic_dir: data/synthetic
+  processed_dir: data/processed
+
+save:
+  per_symptom_excel: true
+
+signals:
+  spasticity:
+    intensity: 1.2
+    noise: 0.15
+    freq: 2.0
+  balance:
+    instability: 0.6
+    noise: 0.08
+  leg_weakness:
+    base_amp: 1.0
+    weakness_factor: 0.6
+  dizziness:
+    noise: 0.08
+  vision:
+    baseline: 1.0
+    degradation: 0.25
+    noise: 0.03
+  headache:
+    spikes: 4
+    spike_amp: 0.9

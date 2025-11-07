@@ -1,0 +1,111 @@
+{
+  "report": {
+    "balance_signal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 17.0
+    },
+    "dizziness": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 17.0
+    },
+    "headache": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 17.0
+    },
+    "leg_weakness": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 17.0
+    },
+    "spasticity_signal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 17.0
+    },
+    "vision_impairment": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 17.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 102.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 102.0
+    }
+  },
+  "labels": [
+    "balance_signal",
+    "dizziness",
+    "headache",
+    "leg_weakness",
+    "spasticity_signal",
+    "vision_impairment"
+  ],
+  "confusion_matrix": [
+    [
+      17,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      17,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      17,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      17,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      17
+    ]
+  ]
+}
